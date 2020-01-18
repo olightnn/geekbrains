@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 # todo Пройти ленту блога
 domain = 'https://geekbrains.ru'
-start_url = 'https://geekbrains.ru/posts?page=53'
+start_url = 'https://geekbrains.ru/posts'
 
 def make_request(url):
     try:
